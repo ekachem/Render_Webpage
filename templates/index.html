@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>{{ title }}</title>
 </head>
 <body>
     <h1>{{ title }}</h1>
-    <p>Welcome! Click below to start your practice test.</p>
-    <a href="{{ url_for('test') }}"><button>Start Test</button></a>
+    <a href="{{ url_for('test') }}">
+        <button>Start Test</button>
+    </a>
 </body>
 </html>
 

@@ -6,23 +6,22 @@
 </head>
 <body>
     <h1>{{ title }}</h1>
+
     <form method="post" action="{{ url_for('submit') }}">
         {% for q in questions %}
-            <div>
-                <p><strong>Q{{ loop.index }}. {{ q.question }}</strong></p>
+            <fieldset>
+                <legend><strong>Q{{ loop.index }}: {{ q.question }}</strong></legend>
                 {% for choice in q.choices %}
                     <label>
-                        <input type="radio" name="q{{ loop.index0 }}" value="{{ choice }}"
-                            {% if loop.first %} required {% endif %}>
+                        <input type="radio" name="q{{ loop.index0 }}" value="{{ choice }}" required>
                         {{ choice }}
                     </label><br>
                 {% endfor %}
-            </div>
+            </fieldset>
             <br>
         {% endfor %}
         <button type="submit">Submit Answers</button>
     </form>
 </body>
 </html>
-
 
