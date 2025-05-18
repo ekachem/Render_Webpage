@@ -42,3 +42,17 @@ def submit():
 
     for i, q in enumerate(data["questions"]):
         user_answer = request.form.get(f"q{i}")
+        correct = user_answer == q["answer"]
+        if correct:
+            score += 1
+        results.append({
+            "question": q["question"],
+            "your_answer": user_answer,
+            "correct_answer": q["answer"],
+            "is_correct": correct
+        })
+
+    return render_template("result.html", score=score, total=len(data["questions"]), results=results, title=data["title"])
+
+if __name__ == "__main__":
+    app.run()
