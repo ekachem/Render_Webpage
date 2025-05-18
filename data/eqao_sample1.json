@@ -10,6 +10,11 @@
       "question": "Which shape has 3 sides?",
       "choices": ["Square", "Triangle", "Circle", "Rectangle"],
       "answer": "Triangle"
+    },
+    {
+      "question": "How many minutes are there in one hour?",
+      "choices": ["60", "100", "30", "90"],
+      "answer": "60"
     }
   ]
 }

@@ -4,7 +4,21 @@ import os
 
 app = Flask(__name__)
 
+
+
 def load_questions():
+    return {
+        "title": "Test EQAO",
+        "questions": [
+            {
+                "question": "2 + 2 = ?",
+                "choices": ["3", "4", "5"],
+                "answer": "4"
+            }
+        ]
+    }
+
+def load_questions_old2():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     data_path = os.path.join(base_dir, "data", "eqao_sample1.json")
     with open(data_path, "r") as f:
