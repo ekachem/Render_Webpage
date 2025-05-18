@@ -1,0 +1,185 @@
+{
+  "title": "Grade 3 Reading Test",
+  "questions": [
+    {
+      "question": "What is the main idea of a story?",
+      "choices": [
+        "The title",
+        "The big message",
+        "The setting"
+      ],
+      "answer": "The big message"
+    },
+    {
+      "question": "What do we call the people in a story?",
+      "choices": [
+        "Letters",
+        "Characters",
+        "Authors"
+      ],
+      "answer": "Characters"
+    },
+    {
+      "question": "What helps you know what might happen next?",
+      "choices": [
+        "Prediction",
+        "Rhyme",
+        "Question"
+      ],
+      "answer": "Prediction"
+    },
+    {
+      "question": "What do you call the time and place of a story?",
+      "choices": [
+        "Theme",
+        "Setting",
+        "Plot"
+      ],
+      "answer": "Setting"
+    },
+    {
+      "question": "Why do authors write?",
+      "choices": [
+        "To confuse",
+        "To entertain, inform, or persuade",
+        "To copy"
+      ],
+      "answer": "To entertain, inform, or persuade"
+    },
+    {
+      "question": "What does the word 'gigantic' mean?",
+      "choices": [
+        "Small",
+        "Happy",
+        "Very big"
+      ],
+      "answer": "Very big"
+    },
+    {
+      "question": "What do we call the problem in the story?",
+      "choices": [
+        "Conflict",
+        "Conclusion",
+        "Character"
+      ],
+      "answer": "Conflict"
+    },
+    {
+      "question": "What part of the story shows how the problem is solved?",
+      "choices": [
+        "Beginning",
+        "Middle",
+        "Ending"
+      ],
+      "answer": "Ending"
+    },
+    {
+      "question": "What does 'illustration' mean?",
+      "choices": [
+        "A title",
+        "A picture",
+        "A word"
+      ],
+      "answer": "A picture"
+    },
+    {
+      "question": "What is a synonym for 'happy'?",
+      "choices": [
+        "Sad",
+        "Joyful",
+        "Mad"
+      ],
+      "answer": "Joyful"
+    },
+    {
+      "question": "What is a question you ask while reading?",
+      "choices": [
+        "Who is the author?",
+        "Where does this take place?",
+        "What will happen next?"
+      ],
+      "answer": "What will happen next?"
+    },
+    {
+      "question": "Which part tells what happened first in a story?",
+      "choices": [
+        "Beginning",
+        "Ending",
+        "Middle"
+      ],
+      "answer": "Beginning"
+    },
+    {
+      "question": "Which of these is a non-fiction book?",
+      "choices": [
+        "A story about dragons",
+        "A guide to planets",
+        "A fairytale"
+      ],
+      "answer": "A guide to planets"
+    },
+    {
+      "question": "Which is a punctuation mark?",
+      "choices": [
+        ".",
+        "a",
+        "the"
+      ],
+      "answer": "."
+    },
+    {
+      "question": "What do quotation marks show?",
+      "choices": [
+        "A title",
+        "A conversation",
+        "A sound"
+      ],
+      "answer": "A conversation"
+    },
+    {
+      "question": "Which is a verb?",
+      "choices": [
+        "Run",
+        "Fast",
+        "Blue"
+      ],
+      "answer": "Run"
+    },
+    {
+      "question": "Which word means the opposite of 'cold'?",
+      "choices": [
+        "Hot",
+        "Cool",
+        "Warm"
+      ],
+      "answer": "Hot"
+    },
+    {
+      "question": "What do we call a book's name?",
+      "choices": [
+        "Title",
+        "Cover",
+        "Heading"
+      ],
+      "answer": "Title"
+    },
+    {
+      "question": "Which part of the book tells what it's about?",
+      "choices": [
+        "Glossary",
+        "Table of contents",
+        "Blurb"
+      ],
+      "answer": "Blurb"
+    },
+    {
+      "question": "What is the purpose of bold words?",
+      "choices": [
+        "For fun",
+        "To add color",
+        "To show important information"
+      ],
+      "answer": "To show important information"
+    }
+  ]
+}

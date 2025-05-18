@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ title }} - Results</title>
+    <title>{{ title }}</title>
 </head>
 <body>
-    <h1>Results</h1>
+    <h1>{{ title }}</h1>
     <p>Score: {{ score }} / {{ total }}</p>
 
     <ul>
@@ -21,6 +21,8 @@
         {% endfor %}
     </ul>
 
-    <a href="{{ url_for('test') }}">Try Again</a>
+    <a href="{{ url_for('test', quiz_file=quiz_file) }}"><button>Try Again</button></a>
+    <a href="{{ url_for('index') }}"><button>Back to Home</button></a>
 </body>
 </html>
+

@@ -1,0 +1,185 @@
+{
+  "title": "Grade 3 Science Test",
+  "questions": [
+    {
+      "question": "What do plants need to grow?",
+      "choices": [
+        "Rocks",
+        "Sunlight",
+        "Plastic"
+      ],
+      "answer": "Sunlight"
+    },
+    {
+      "question": "Which part of the plant takes in water?",
+      "choices": [
+        "Leaf",
+        "Stem",
+        "Roots"
+      ],
+      "answer": "Roots"
+    },
+    {
+      "question": "Which planet do we live on?",
+      "choices": [
+        "Mars",
+        "Earth",
+        "Venus"
+      ],
+      "answer": "Earth"
+    },
+    {
+      "question": "What do we breathe in to live?",
+      "choices": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": "Oxygen"
+    },
+    {
+      "question": "Which organ pumps blood through your body?",
+      "choices": [
+        "Lungs",
+        "Heart",
+        "Brain"
+      ],
+      "answer": "Heart"
+    },
+    {
+      "question": "What do animals need to survive?",
+      "choices": [
+        "Oxygen",
+        "Sunlight",
+        "Both"
+      ],
+      "answer": "Both"
+    },
+    {
+      "question": "Which state of matter is water?",
+      "choices": [
+        "Solid",
+        "Liquid",
+        "Gas"
+      ],
+      "answer": "Liquid"
+    },
+    {
+      "question": "What causes day and night?",
+      "choices": [
+        "The moon",
+        "Earth's rotation",
+        "Sun\u2019s movement"
+      ],
+      "answer": "Earth's rotation"
+    },
+    {
+      "question": "What part of the body helps us think?",
+      "choices": [
+        "Brain",
+        "Lungs",
+        "Stomach"
+      ],
+      "answer": "Brain"
+    },
+    {
+      "question": "What is freezing point of water?",
+      "choices": [
+        "0\u00b0C",
+        "100\u00b0C",
+        "50\u00b0C"
+      ],
+      "answer": "0\u00b0C"
+    },
+    {
+      "question": "How many legs does an insect have?",
+      "choices": [
+        "6",
+        "4",
+        "8"
+      ],
+      "answer": "6"
+    },
+    {
+      "question": "What do bees collect from flowers?",
+      "choices": [
+        "Pollen",
+        "Grass",
+        "Water"
+      ],
+      "answer": "Pollen"
+    },
+    {
+      "question": "Which sense helps us smell?",
+      "choices": [
+        "Eyes",
+        "Nose",
+        "Tongue"
+      ],
+      "answer": "Nose"
+    },
+    {
+      "question": "What does a thermometer measure?",
+      "choices": [
+        "Weight",
+        "Height",
+        "Temperature"
+      ],
+      "answer": "Temperature"
+    },
+    {
+      "question": "Where does a tadpole live?",
+      "choices": [
+        "Water",
+        "Tree",
+        "Underground"
+      ],
+      "answer": "Water"
+    },
+    {
+      "question": "What helps fish breathe?",
+      "choices": [
+        "Nose",
+        "Gills",
+        "Fins"
+      ],
+      "answer": "Gills"
+    },
+    {
+      "question": "What do you call an animal that eats only plants?",
+      "choices": [
+        "Carnivore",
+        "Herbivore",
+        "Omnivore"
+      ],
+      "answer": "Herbivore"
+    },
+    {
+      "question": "What happens when you mix red and blue?",
+      "choices": [
+        "Green",
+        "Purple",
+        "Orange"
+      ],
+      "answer": "Purple"
+    },
+    {
+      "question": "Where does the Sun rise?",
+      "choices": [
+        "West",
+        "East",
+        "North"
+      ],
+      "answer": "East"
+    },
+    {
+      "question": "Which planet is known as the red planet?",
+      "choices": [
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": "Mars"
+    }
+  ]
+}

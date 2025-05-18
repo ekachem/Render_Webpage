@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ title }}</title>
+    <title>Choose a Test</title>
 </head>
 <body>
-    <h1>{{ title }}</h1>
-    <a href="{{ url_for('test') }}"><button>Start Test</button></a>
+    <h1>Select a Practice Test</h1>
+    <form method="post">
+        <select name="quiz" required>
+            {% for file in quiz_files %}
+                <option value="{{ file }}">{{ file.replace('.json', '').capitalize() }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Start Test</button>
+    </form>
 </body>
 </html>
+
