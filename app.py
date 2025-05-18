@@ -4,12 +4,22 @@ app = Flask(__name__)
 
 def load_questions():
     return {
-        "title": "EQAO Grade 3 Practice",
+        "title": "Grade 3 EQAO Practice",
         "questions": [
             {
                 "question": "What is 2 + 2?",
                 "choices": ["3", "4", "5"],
                 "answer": "4"
+            },
+            {
+                "question": "What color is the sky on a clear day?",
+                "choices": ["Blue", "Green", "Red"],
+                "answer": "Blue"
+            },
+            {
+                "question": "How many days are there in a week?",
+                "choices": ["5", "7", "10"],
+                "answer": "7"
             }
         ]
     }
@@ -32,17 +42,3 @@ def submit():
 
     for i, q in enumerate(data["questions"]):
         user_answer = request.form.get(f"q{i}")
-        correct = user_answer == q["answer"]
-        if correct:
-            score += 1
-        results.append({
-            "question": q["question"],
-            "your_answer": user_answer,
-            "correct_answer": q["answer"],
-            "is_correct": correct
-        })
-
-    return render_template("result.html", score=score, total=len(data["questions"]), results=results, title=data["title"])
-
-if __name__ == "__main__":
-    app.run()
