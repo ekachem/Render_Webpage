@@ -4,8 +4,14 @@ import os
 
 app = Flask(__name__)
 
-# Load questions from JSON file
 def load_questions():
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(base_dir, "data", "eqao_sample1.json")
+    with open(data_path, "r") as f:
+        return json.load(f)
+
+# Load questions from JSON file
+def load_questions_old():
     with open("data/eqao_sample1.json", "r") as f:
         return json.load(f)
 
