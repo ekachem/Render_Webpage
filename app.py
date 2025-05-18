@@ -2,10 +2,9 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-# Sample test data
 def load_questions():
     return {
-        "title": "Test EQAO",
+        "title": "EQAO Grade 3 Practice",
         "questions": [
             {
                 "question": "What is 2 + 2?",
@@ -17,22 +16,21 @@ def load_questions():
 
 @app.route("/")
 def index():
-    test_data = load_questions()
-    return render_template("index.html", title=test_data["title"])
+    data = load_questions()
+    return render_template("index.html", title=data["title"])
 
 @app.route("/test")
 def test():
-    test_data = load_questions()
-    return render_template("test.html", questions=test_data["questions"], title=test_data["title"])
+    data = load_questions()
+    return render_template("test.html", questions=data["questions"], title=data["title"])
 
 @app.route("/submit", methods=["POST"])
 def submit():
-    test_data = load_questions()
-    questions = test_data["questions"]
+    data = load_questions()
     score = 0
     results = []
 
-    for i, q in enumerate(questions):
+    for i, q in enumerate(data["questions"]):
         user_answer = request.form.get(f"q{i}")
         correct = user_answer == q["answer"]
         if correct:
@@ -44,9 +42,7 @@ def submit():
             "is_correct": correct
         })
 
-    return render_template("result.html", score=score, total=len(questions), results=results, title=test_data["title"])
+    return render_template("result.html", score=score, total=len(data["questions"]), results=results, title=data["title"])
 
 if __name__ == "__main__":
     app.run()
-
-

@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>{{ title }}</title>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
 </head>
 <body>
-    <h1>{{ title }}</h1>
+  <h1>{{ title }}</h1>
 
-    <form method="post" action="{{ url_for('submit') }}">
-        {% for q in questions %}
-            <fieldset>
-                <legend><strong>Q{{ loop.index }}: {{ q.question }}</strong></legend>
-                {% for choice in q.choices %}
-                    <label>
-                        <input type="radio" name="q{{ loop.index0 }}" value="{{ choice }}" required>
-                        {{ choice }}
-                    </label><br>
-                {% endfor %}
-            </fieldset>
-            <br>
+  <form method="post" action="{{ url_for('submit') }}">
+    {% for q in questions %}
+      <div>
+        <p><strong>Q{{ loop.index }}: {{ q.question }}</strong></p>
+        {% for choice in q.choices %}
+          <label>
+            <input
+              type="radio"
+              name="q{{ loop.index0 }}"
+              value="{{ choice }}"
+              {% if loop.index0 == 0 and loop.parent.first %} required {% endif %}>
+            {{ choice }}
+          </label><br>
         {% endfor %}
-        <button type="submit">Submit Answers</button>
-    </form>
+      </div>
+      <br>
+    {% endfor %}
+    <button type="submit">Submit Answers</button>
+  </form>
 </body>
 </html>
-
-
