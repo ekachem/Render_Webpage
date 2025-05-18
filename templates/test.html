@@ -7,12 +7,13 @@
 <body>
     <h1>{{ title }}</h1>
     <form method="post" action="{{ url_for('submit') }}">
-        {% for i, q in enumerate(questions) %}
+        {% for q in questions %}
             <div>
-                <p><strong>Q{{ i+1 }}. {{ q.question }}</strong></p>
+                <p><strong>Q{{ loop.index }}. {{ q.question }}</strong></p>
                 {% for choice in q.choices %}
                     <label>
-                        <input type="radio" name="q{{ i }}" value="{{ choice }}" required>
+                        <input type="radio" name="q{{ loop.index0 }}" value="{{ choice }}"
+                            {% if loop.first %} required {% endif %}>
                         {{ choice }}
                     </label><br>
                 {% endfor %}

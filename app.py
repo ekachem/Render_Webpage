@@ -1,33 +1,19 @@
-from flask import Flask, render_template, request, redirect, url_for
-import json
-import os
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-
-
+# Sample test data
 def load_questions():
     return {
         "title": "Test EQAO",
         "questions": [
             {
-                "question": "2 + 2 = ?",
+                "question": "What is 2 + 2?",
                 "choices": ["3", "4", "5"],
                 "answer": "4"
             }
         ]
     }
-
-def load_questions_old2():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_path = os.path.join(base_dir, "data", "eqao_sample1.json")
-    with open(data_path, "r") as f:
-        return json.load(f)
-
-# Load questions from JSON file
-def load_questions_old():
-    with open("data/eqao_sample1.json", "r") as f:
-        return json.load(f)
 
 @app.route("/")
 def index():
@@ -61,5 +47,5 @@ def submit():
     return render_template("result.html", score=score, total=len(questions), results=results, title=test_data["title"])
 
 if __name__ == "__main__":
-    app.run()  # Turn off debug in production
+    app.run()
 
