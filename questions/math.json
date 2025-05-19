@@ -2,6 +2,159 @@
   "title": "Grade 3 Math Test",
   "questions": [
 	      {
+      "question": "This table shows the number of different types of birds a person sees outside each day. What is the **mean** number of bird types seen?",
+      "image": "static/images/birds_table.png",
+      "choices": [
+        "2",
+        "4",
+        "7",
+        "20"
+      ],
+      "answer": "4"
+    },
+    {
+      "question": "According to the table, what is the **mode** of the number of bird types seen?",
+      "image": "static/images/birds_table.png",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "7"
+      ],
+      "answer": "3"
+    },
+    {
+      "question": "Based on the table, how many **total types of birds** were seen during the week?",
+      "image": "static/images/birds_table.png",
+      "choices": [
+        "20",
+        "18",
+        "15",
+        "25"
+      ],
+      "answer": "20"
+    },
+	      {
+      "question": "Which TWO expressions are equivalent to 4 × 2?",
+      "choices": [
+        "2 + 8",
+        "3 + 5",
+        "16 ÷ 2",
+        "12 − 5",
+        "8 ÷ 4"
+      ],
+      "answer": ["3 + 5", "16 ÷ 2"]
+    },
+    {
+      "question": "Which expression has the same value as 18 − 9?",
+      "choices": [
+        "3 × 3",
+        "10 − 1",
+        "6 + 3",
+        "9 ÷ 3"
+      ],
+      "answer": "3 × 3"
+    },
+    {
+      "question": "Which TWO expressions are equal to 12?",
+      "choices": [
+        "6 + 6",
+        "3 × 4",
+        "24 ÷ 2",
+        "5 + 8",
+        "6 × 2"
+      ],
+      "answer": ["6 + 6", "3 × 4"]
+    },
+	      {
+      "question": "What is the total number of sides at position 10?",
+      "image": "static/images/pattern_triangles.png",
+      "choices": [
+        "24",
+        "30",
+        "36",
+        "45"
+      ],
+      "answer": "30"
+    },
+    {
+      "question": "What is the total number of sides at position 10?",
+      "image": "static/images/pattern_hexagons.png",
+      "choices": [
+        "36",
+        "54",
+        "60",
+        "66"
+      ],
+      "answer": "60"
+    },
+    {
+      "question": "What is the total number of sides at position 10?",
+      "image": "static/images/pattern_squares.png",
+      "choices": [
+        "36",
+        "40",
+        "44",
+        "48"
+      ],
+      "answer": "40"
+    },
+	      {
+      "question": "Which digital clock shows the same time as this analog clock?",
+      "image": "static/images/clock_3_00.png",
+      "choices": [
+        "2:00",
+        "3:00",
+        "4:00",
+        "5:00"
+      ],
+      "answer": "3:00"
+    },
+    {
+      "question": "Which digital clock shows the same time as this analog clock?",
+      "image": "static/images/clock_6_30.png",
+      "choices": [
+        "6:30",
+        "5:30",
+        "7:00",
+        "6:00"
+      ],
+      "answer": "6:30"
+    },
+    {
+      "question": "Which digital clock shows the same time as this analog clock?",
+      "image": "static/images/clock_9_45.png",
+      "choices": [
+        "9:00",
+        "10:00",
+        "9:45",
+        "8:45"
+      ],
+      "answer": "9:45"
+    },
+    {
+      "question": "Which digital clock shows the same time as this analog clock?",
+      "image": "static/images/clock_12_15.png",
+      "choices": [
+        "12:00",
+        "12:30",
+        "12:15",
+        "1:00"
+      ],
+      "answer": "12:15"
+    },
+    {
+      "question": "Which digital clock shows the same time as this analog clock?",
+      "image": "static/images/clock_1_20.png",
+      "choices": [
+        "1:00",
+        "1:15",
+        "1:20",
+        "2:00"
+      ],
+      "answer": "1:20"
+    },
+	      {
       "question": "How many oranges were sold that day?",
       "image": "static/images/fruit_table.png",
       "choices": [
