@@ -2,6 +2,38 @@
   "title": "Grade 3 Math Test",
   "questions": [
 	      {
+      "question": "How many more students liked Banana and Butterscotch than Caramel?",
+      "image": "static/images/favorite_candy_bar_graph.png",
+      "choices": ["14", "18", "20", "26"],
+      "answer": "26"
+    },
+	      {
+      "question": "The bar graph shows the number of sunny days in four different months. How many more sunny days are there in total in July and August than in October?",
+      "image": "static/images/sunny_days_bar_graph.png",
+      "choices": ["27", "32", "37", "25"],
+      "answer": "37"
+    },
+	     {
+      "question": "Which set of numbers is listed in order from **smallest to largest**?",
+      "choices": [
+        "A. 312, 341, 319",
+        "B. 294, 243, 239",
+        "C. 239, 243, 294",
+        "D. 341, 312, 319"
+      ],
+      "answer": "C. 239, 243, 294"
+    },
+    {
+      "question": "Which set of numbers is listed in order from **largest to smallest**?",
+      "choices": [
+        "A. 510, 480, 520",
+        "B. 600, 599, 598",
+        "C. 480, 510, 520",
+        "D. 598, 600, 599"
+      ],
+      "answer": "B. 600, 599, 598"
+    },
+	      {
       "question": "Deepak reads for 30 minutes each night before bed. After 2 weeks, has Deepak read for more than 6 hours?",
       "choices": ["Yes", "No"],
       "answer": "Yes"
