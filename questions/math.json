@@ -2,6 +2,56 @@
   "title": "Grade 3 Math Test",
   "questions": [
 	      {
+      "question": "Deepak reads for 30 minutes each night before bed. After 2 weeks, has Deepak read for more than 6 hours?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes"
+    },
+    {
+      "question": "Sara practices the piano for 15 minutes every day. After 1 week, has she practiced for more than 2 hours?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes"
+    },
+    {
+      "question": "Liam brushes his teeth for 2 minutes every morning and evening. In 5 days, has he brushed for more than 20 minutes total?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes"
+    },
+    {
+      "question": "Ava spends 10 minutes cleaning her room every Saturday. After 3 weeks, has she spent more than 1 hour cleaning?",
+      "choices": ["Yes", "No"],
+      "answer": "No"
+    },
+    {
+      "question": "Noah reads for 25 minutes every weekday. After 1 week (5 weekdays), has he read for more than 2 hours?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes"
+    },
+	      {
+      "question": "Amit creates a pattern. He starts at 2 and counts forward by 3s.\nMia creates a pattern. She starts at 5 and counts forward by 4s.\nWhich two numbers are in both of their patterns?",
+      "choices": ["A. 9 and 17", "B. 13 and 21", "C. 17 and 29", "D. 20 and 29"],
+      "answer": "D. 20 and 29"
+    },
+    {
+      "question": "Liam starts at 1 and counts forward by 6s.\nZoe starts at 4 and counts forward by 5s.\nWhich two numbers appear in both patterns?",
+      "choices": ["A. 16 and 21", "B. 19 and 34", "C. 31 and 34", "D. 24 and 31"],
+      "answer": "C. 31 and 34"
+    },
+    {
+      "question": "Carlos starts at 50 and counts backward by 7s.\nNora starts at 22 and counts forward by 5s.\nWhich two numbers are in both of their patterns?",
+      "choices": ["A. 36 and 15", "B. 29 and 8", "C. 36 and 1", "D. 43 and 22"],
+      "answer": "A. 36 and 15"
+    },
+    {
+      "question": "Priya starts at 10 and counts backward by 2s.\nMax starts at 0 and counts forward by 4s.\nWhich two numbers are in both patterns?",
+      "choices": ["A. 2 and 8", "B. 6 and 10", "C. 4 and 6", "D. 2 and 6"],
+      "answer": "D. 2 and 6"
+    },
+    {
+      "question": "Ella starts at 3 and counts forward by 8s.\nEthan starts at 4 and counts forward by 6s.\nWhich two numbers are in both of their patterns?",
+      "choices": ["A. 27 and 35", "B. 11 and 20", "C. 43 and 59", "D. 43 and 51"],
+      "answer": "D. 43 and 51"
+    },
+	      {
       "question": "A bag has 8 blue tiles and 1 green tile. Sara pulls one tile from the bag without looking. What is the likelihood that she pulls a blue tile?",
       "choices": ["Certain", "Likely", "Unlikely", "Impossible"],
       "answer": "Likely"
