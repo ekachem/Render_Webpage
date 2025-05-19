@@ -56,6 +56,383 @@
       ],
       "answer": "85"
     },
+	      {
+      "question": "A pattern starts at 60 and decreases by 2 each time. What are the missing numbers?",
+      "image": "static/images/pattern_decrease2.png",
+      "choices": [
+        "54, 52",
+        "54, 53",
+        "55, 53",
+        "55, 54"
+      ],
+      "answer": "54, 52"
+    },
+    {
+      "question": "A pattern increases by 5 each time. What are the missing numbers?",
+      "image": "static/images/pattern_increase5.png",
+      "choices": [
+        "20, 25",
+        "18, 23",
+        "17, 22",
+        "15, 20"
+      ],
+      "answer": "20, 25"
+    },
+    {
+      "question": "A pattern alternates: add 2, subtract 3. What are the next two numbers?",
+      "image": "static/images/pattern_alt_add_subtract.png",
+      "choices": [
+        "8, 10",
+        "10, 8",
+        "12, 9",
+        "9, 7"
+      ],
+      "answer": "8, 10"
+    },
+	      {
+      "question": "The perimeter of this rectangular postcard is 40 cm. What is the width?",
+      "image": "static/images/postcard_perimeter.png",
+      "choices": [
+        "8 cm",
+        "16 cm",
+        "24 cm",
+        "28 cm"
+      ],
+      "answer": "8 cm"
+    },
+    {
+      "question": "What is the perimeter of this rectangle?",
+      "image": "static/images/rectangle_10x4.png",
+      "choices": [
+        "28 cm",
+        "36 cm",
+        "20 cm",
+        "24 cm"
+      ],
+      "answer": "28 cm"
+    },
+    {
+      "question": "What is the area of this rectangle?",
+      "image": "static/images/rectangle_7x3.png",
+      "choices": [
+        "21 sq units",
+        "10 sq units",
+        "18 sq units",
+        "24 sq units"
+      ],
+      "answer": "21 sq units"
+    },
+    {
+      "question": "Which statement is true about this shape?",
+      "image": "static/images/rectangle_5x5.png",
+      "choices": [
+        "It is a square.",
+        "It has 3 sides.",
+        "It is a triangle.",
+        "It has different length and width."
+      ],
+      "answer": "It is a square."
+    },
+    {
+      "question": "What is the area of this shape?",
+      "image": "static/images/rectangle_9x2.png",
+      "choices": [
+        "18 sq cm",
+        "20 sq cm",
+        "16 sq cm",
+        "22 sq cm"
+      ],
+      "answer": "18 sq cm"
+    },
+	      {
+      "question": "Which statement about this rectangle-based prism is true?",
+      "image": "static/images/rect_prism_1.png",
+      "choices": [
+        "It has 4 faces.",
+        "It has 12 edges.",
+        "It has 6 vertices.",
+        "It has 7 rectangular faces."
+      ],
+      "answer": "It has 12 edges."
+    },
+    {
+      "question": "Which statement is true about the cube?",
+      "image": "static/images/cube_properties.png",
+      "choices": [
+        "It has 8 faces.",
+        "It has 6 square faces.",
+        "It has 10 vertices.",
+        "It has 5 edges."
+      ],
+      "answer": "It has 6 square faces."
+    },
+    {
+      "question": "Which statement is true about the triangular prism?",
+      "image": "static/images/triangular_prism.png",
+      "choices": [
+        "It has 2 triangular faces.",
+        "It has 3 vertices.",
+        "It has 5 faces.",
+        "It has 4 edges."
+      ],
+      "answer": "It has 2 triangular faces."
+    },
+    {
+      "question": "Which statement is true about the cylinder?",
+      "image": "static/images/cylinder_properties.png",
+      "choices": [
+        "It has 3 faces.",
+        "It has 1 edge.",
+        "It has 2 circular faces.",
+        "It has 4 vertices."
+      ],
+      "answer": "It has 2 circular faces."
+    },
+    {
+      "question": "Which statement is true about the cone?",
+      "image": "static/images/cone_properties.png",
+      "choices": [
+        "It has 1 face and 1 vertex.",
+        "It has 2 edges.",
+        "It has 3 faces.",
+        "It has 2 vertices."
+      ],
+      "answer": "It has 1 face and 1 vertex."
+    },
+    {
+      "question": "Which statement is true about the sphere?",
+      "image": "static/images/sphere_properties.png",
+      "choices": [
+        "It has no edges or vertices.",
+        "It has 1 edge.",
+        "It has 1 vertex.",
+        "It has 2 faces."
+      ],
+      "answer": "It has no edges or vertices."
+    },
+    {
+      "question": "How many rectangular faces does this prism have?",
+      "image": "static/images/rect_prism_faces.png",
+      "choices": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "answer": "6"
+    },
+    {
+      "question": "How many edges and vertices does a cube have?",
+      "image": "static/images/cube_edges_vertices.png",
+      "choices": [
+        "12 edges and 8 vertices",
+        "10 edges and 6 vertices",
+        "6 edges and 4 vertices",
+        "8 edges and 6 vertices"
+      ],
+      "answer": "12 edges and 8 vertices"
+    },
+    {
+      "question": "How many faces does a cone have?",
+      "image": "static/images/cone_base_face.png",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2"
+    },
+    {
+      "question": "How many edges does a cylinder have?",
+      "image": "static/images/cylinder_edges.png",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "2"
+    },
+    {
+      "question": "How many faces and edges does a cube have?",
+      "image": "static/images/cube_faces_edges.png",
+      "choices": [
+        "6 faces and 8 edges",
+        "6 faces and 12 edges",
+        "8 faces and 6 edges",
+        "12 faces and 6 edges"
+      ],
+      "answer": "6 faces and 12 edges"
+    },
+    {
+      "question": "Which statement is true about a sphere?",
+      "image": "static/images/sphere_features.png",
+      "choices": [
+        "It has 1 face and 1 edge",
+        "It has 1 curved surface and no edges",
+        "It has 1 vertex",
+        "It has 2 edges"
+      ],
+      "answer": "It has 1 curved surface and no edges"
+    },
+    {
+      "question": "How many edges and vertices does a rectangular prism have?",
+      "image": "static/images/rect_prism_edges_vertices.png",
+      "choices": [
+        "12 edges and 8 vertices",
+        "10 edges and 6 vertices",
+        "8 edges and 6 vertices",
+        "14 edges and 10 vertices"
+      ],
+      "answer": "12 edges and 8 vertices"
+    },
+	      {
+      "question": "What is the correct set of steps to move the turtle to the lily pad?",
+      "image": "static/images/turtle_path_1.png",
+      "choices": [
+        "Move 2 forward, Turn right, Move 3 forward",
+        "Move 3 forward, Turn left, Move 2 forward",
+        "Move 2 forward, Turn left, Move 4 forward",
+        "Move 1 forward, Turn right, Move 3 forward"
+      ],
+      "answer": "Move 2 forward, Turn right, Move 3 forward"
+    },
+    {
+      "question": "Which command will get the turtle to the lily pad?",
+      "image": "static/images/turtle_path_2.png",
+      "choices": [
+        "Move 4 forward, Turn left",
+        "Turn left, Move 4 forward",
+        "Turn right, Move 4 forward",
+        "Move 2 forward, Turn left"
+      ],
+      "answer": "Turn left, Move 4 forward"
+    },
+    {
+      "question": "Which set of instructions completes the path?",
+      "image": "static/images/turtle_path_3.png",
+      "choices": [
+        "Move 1 forward, Turn right, Move 2 forward",
+        "Move 2 forward, Turn right, Move 1 forward",
+        "Move 1 forward, Turn left, Move 2 forward",
+        "Turn right, Move 3 forward"
+      ],
+      "answer": "Move 1 forward, Turn right, Move 2 forward"
+    },
+	      {
+      "question": "Erin is counting by 50s. What number is missing?",
+      "image": "static/images/counting_50s.png",
+      "choices": [
+        "100",
+        "125",
+        "150",
+        "200"
+      ],
+      "answer": "125"
+    },
+    {
+      "question": "Erin is counting by 200s. What number is missing?",
+      "image": "static/images/counting_200s.png",
+      "choices": [
+        "500",
+        "450",
+        "550",
+        "650"
+      ],
+      "answer": "550"
+    },
+    {
+      "question": "What are the two missing numbers?",
+      "image": "static/images/counting_mix.png",
+      "choices": [
+        "125, 250",
+        "150, 250",
+        "150, 275",
+        "125, 225"
+      ],
+      "answer": "150, 250"
+    },
+    {
+      "question": "What is the most appropriate unit to measure the thickness of a coin?",
+      "choices": ["metres", "kilometres", "millimetres", "centimetres"],
+      "answer": "millimetres"
+    },
+    {
+      "question": "Which tool would best measure the length of a pencil?",
+      "choices": ["Thermometer", "Ruler", "Clock", "Scale"],
+      "answer": "Ruler"
+    },
+    {
+      "question": "What is the best unit to measure the distance between two cities?",
+      "choices": ["Metres", "Centimetres", "Kilometres", "Millimetres"],
+      "answer": "Kilometres"
+    },
+    {
+      "question": "What is the approximate weight of a book?",
+      "choices": ["2 grams", "2 kilograms", "20 litres", "2 metres"],
+      "answer": "2 kilograms"
+    },
+    {
+      "question": "Which unit is best to measure the amount of water in a bottle?",
+      "choices": ["Millilitres", "Grams", "Metres", "Kilograms"],
+      "answer": "Millilitres"
+    },
+	      {
+      "question": "How many oranges were sold that day?",
+      "image": "static/images/fruit_table.png",
+      "choices": [
+        "218 oranges",
+        "289 oranges",
+        "351 oranges",
+        "382 oranges"
+      ],
+      "answer": "218 oranges"
+    },
+    {
+      "question": "How many science books were sold?",
+      "image": "static/images/book_table.png",
+      "choices": [
+        "22 books",
+        "33 books",
+        "28 books",
+        "25 books"
+      ],
+      "answer": "33 books"
+    },
+    {
+      "question": "How many senior tickets were sold?",
+      "image": "static/images/ticket_table.png",
+      "choices": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "answer": "30"
+    },
+    {
+      "question": "How many robots were sold?",
+      "image": "static/images/toy_table.png",
+      "choices": [
+        "86",
+        "74",
+        "90",
+        "72"
+      ],
+      "answer": "86"
+    },
+    {
+      "question": "How many oatmeal cookies were sold?",
+      "image": "static/images/cookie_table.png",
+      "choices": [
+        "85",
+        "95",
+        "100",
+        "90"
+      ],
+      "answer": "85"
+    },
 	  {
   "question": "How many oranges were sold that day?",
   "image": "static/images/fruit_table.png",
