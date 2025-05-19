@@ -2,6 +2,69 @@
   "title": "Grade 3 Math Test",
   "questions": [
 	      {
+      "question": "How many more students prefer Fantasy than Biography?",
+      "image": "static/images/book_genres_bar_graph.png",
+      "choices": ["10", "12", "14", "8"],
+      "answer": "12"
+    },
+    {
+      "question": "How many more students take the bus than walk or bike combined?",
+      "image": "static/images/transportation_bar_graph.png",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "2"
+    },
+    {
+      "question": "What is the total number of students who preferred Apple and Banana?",
+      "image": "static/images/fruit_preferences_bar_graph.png",
+      "choices": ["26", "28", "30", "24"],
+      "answer": "28"
+    },
+	      {
+      "question": "Lena has 62 marbles and Kevin has 49 marbles. Which is closest to the total number of marbles they have?",
+      "choices": ["90", "100", "110", "120"],
+      "answer": "110"
+    },
+    {
+      "question": "Julia ran 83 meters and Sarah ran 27 meters. Which number is closest to the total distance they ran?",
+      "choices": ["90", "100", "110", "120"],
+      "answer": "110"
+    },
+    {
+      "question": "Tom collected 36 shells and Maya collected 44 shells. Which number is closest to how many shells they have altogether?",
+      "choices": ["70", "80", "90", "100"],
+      "answer": "80"
+    },
+    {
+      "question": "Which of the following does not have the same value as 6 × 3?",
+      "choices": ["3 × 6", "9 + 9", "18", "5 × 3"],
+      "answer": "5 × 3"
+    },
+    {
+      "question": "Which expression does not equal 5 × 4?",
+      "choices": ["10 + 10", "4 + 4 + 4 + 4 + 4", "20", "6 × 4"],
+      "answer": "6 × 4"
+    },
+    {
+      "question": "Which of the following does not have the same value as 7 × 2?",
+      "choices": ["2 × 7", "14", "10 + 4", "7 + 7"],
+      "answer": "10 + 4"
+    },
+    {
+      "question": "What number makes the addition sentence below true?\n? + 36 = 59",
+      "choices": ["25", "23", "21", "19"],
+      "answer": "23"
+    },
+    {
+      "question": "What number makes the equation below true?\n? + 15 = 42",
+      "choices": ["27", "25", "32", "29"],
+      "answer": "27"
+    },
+    {
+      "question": "What number makes the sentence below true?\n? + 68 = 100",
+      "choices": ["42", "32", "28", "22"],
+      "answer": "32"
+    },
+	      {
       "question": "How many more students liked Banana and Butterscotch than Caramel?",
       "image": "static/images/favorite_candy_bar_graph.png",
       "choices": ["14", "18", "20", "26"],
