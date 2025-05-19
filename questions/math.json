@@ -2,6 +2,21 @@
   "title": "Grade 3 Math Test",
   "questions": [
 	      {
+      "question": "A bag has 8 blue tiles and 1 green tile. Sara pulls one tile from the bag without looking. What is the likelihood that she pulls a blue tile?",
+      "choices": ["Certain", "Likely", "Unlikely", "Impossible"],
+      "answer": "Likely"
+    },
+    {
+      "question": "A spinner has four equal sections: red, yellow, green, and blue. What is the likelihood that it lands on pink?",
+      "choices": ["Certain", "Likely", "Impossible", "Unlikely"],
+      "answer": "Impossible"
+    },
+    {
+      "question": "A coin is flipped. What is the likelihood it lands on heads?",
+      "choices": ["Certain", "Impossible", "Likely", "Unlikely"],
+      "answer": "Likely"
+    },
+	      {
       "question": "This table shows the number of different types of birds a person sees outside each day. What is the **mean** number of bird types seen?",
       "image": "static/images/birds_table.png",
       "choices": [
