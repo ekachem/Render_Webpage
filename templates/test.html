@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <meta charset="UTF-8">
   <title>{{ title }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: auto; }
+    fieldset { margin-bottom: 20px; padding: 15px; }
+    img { max-width: 100%; height: auto; margin-bottom: 10px; }
+  </style>
 </head>
 <body>
   <h1>{{ title }}</h1>
@@ -12,6 +18,11 @@
       {% set q_index = loop.index0 %}
       <fieldset>
         <legend><strong>Q{{ loop.index }}: {{ q.question }}</strong></legend>
+
+        {% if q.image %}
+          <img src="{{ url_for('static', filename=q.image.replace('static/', '')) }}" alt="Question Image">
+        {% endif %}
+
         {% for choice in q.choices %}
           <label>
             <input type="radio" name="q{{ q_index }}" value="{{ choice }}" required>
@@ -19,7 +30,6 @@
           </label><br>
         {% endfor %}
       </fieldset>
-      <br>
     {% endfor %}
     <button type="submit">Submit Answers</button>
   </form>

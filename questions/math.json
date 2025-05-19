@@ -1,12 +1,98 @@
 {
   "title": "Grade 3 Math Test",
   "questions": [
+	      {
+      "question": "How many oranges were sold that day?",
+      "image": "static/images/fruit_table.png",
+      "choices": [
+        "218 oranges",
+        "289 oranges",
+        "351 oranges",
+        "382 oranges"
+      ],
+      "answer": "218 oranges"
+    },
+    {
+      "question": "How many science books were sold?",
+      "image": "static/images/book_table.png",
+      "choices": [
+        "22 books",
+        "33 books",
+        "28 books",
+        "25 books"
+      ],
+      "answer": "33 books"
+    },
+    {
+      "question": "How many senior tickets were sold?",
+      "image": "static/images/ticket_table.png",
+      "choices": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "answer": "30"
+    },
+    {
+      "question": "How many robots were sold?",
+      "image": "static/images/toy_table.png",
+      "choices": [
+        "86",
+        "74",
+        "90",
+        "72"
+      ],
+      "answer": "86"
+    },
+    {
+      "question": "How many oatmeal cookies were sold?",
+      "image": "static/images/cookie_table.png",
+      "choices": [
+        "85",
+        "95",
+        "100",
+        "90"
+      ],
+      "answer": "85"
+    },
+	  {
+  "question": "How many oranges were sold that day?",
+  "image": "static/images/fruit_table.png",
+  "choices": ["218 oranges", "289 oranges", "351 oranges", "382 oranges"],
+  "answer": "218 oranges"
+},
+          {
+  "question": "How many oranges were sold that day?",
+  "image": "static/images/fruit_table.png",
+  "choices": ["218 oranges", "289 oranges", "351 oranges", "382 oranges"],
+  "answer": "218 oranges"
+},
+          {
+  "question": "How many oranges were sold that day?",
+  "image": "static/images/fruit_table.png",
+  "choices": ["218 oranges", "289 oranges", "351 oranges", "382 oranges"],
+  "answer": "218 oranges"
+},
+          {
+  "question": "How many oranges were sold that day?",
+  "image": "static/images/fruit_table.png",
+  "choices": ["218 oranges", "289 oranges", "351 oranges", "382 oranges"],
+  "answer": "218 oranges"
+},
+          {
+  "question": "How many oranges were sold that day?",
+  "image": "static/images/fruit_table.png",
+  "choices": ["218 oranges", "289 oranges", "351 oranges", "382 oranges"],
+  "answer": "218 oranges"
+},
     {
       "question": "What is 10 + 5?",
       "choices": [
         "13",
         "14",
-        "15"
+        "15",
+	"20"
       ],
       "answer": "15"
     },
